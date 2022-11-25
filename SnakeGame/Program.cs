@@ -1,9 +1,12 @@
-﻿using System;
+﻿using MenuBuilder;
+using System;
 using System.Collections.Generic;
+using System.ComponentModel.Design;
 using System.Linq;
 using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
+using static System.Console;
 
 namespace SnakeGame
 {
@@ -14,11 +17,49 @@ namespace SnakeGame
         public static Coordinate Hero { get; set; } //Will represent our here that's moving around :P/>
         static void Main(string[] args)
         {
-           
-            //todo
+            // todo
             //lage meny - må gå helt til bruker avslutter
-            //
-            
+             
+            string[] menuOptions =
+                {"Start SNAKE" , "Start HERO" , "Quit" , };
+
+            var newMenu = new Menu(menuOptions, 1, 1);
+        
+            newMenu.ModifyMenuCentered();
+
+            newMenu.CenterMenuToConsole();
+
+            newMenu.ResetCursorVisible();
+
+            int selection = 0;
+
+            while (selection != 6)      
+            {
+                selection = newMenu.RunMenu();
+                switch (selection)
+                {
+                    case 1:
+                        {
+                            Console.WriteLine("Starting Snake...");
+                            
+                            break;
+                        }
+                    case 2:
+                        {
+                            Console.WriteLine("Starting Hero...");
+                           
+                            break;
+                        }
+                    case 3:
+                        {
+                            Environment.Exit(0);
+                            break;
+                        }
+                }
+            }
+            Console.WriteLine("Press Enter to Exit");
+            ReadKey();
+            //sytes denne oppgaven hvar litt brått på siden du ikke la till noe ledetråder til hva vi kunne bruke
         }
 
         static void Snake()//hva skjer om du endrer dette metodenavnet?

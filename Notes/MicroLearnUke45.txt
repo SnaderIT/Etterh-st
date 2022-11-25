@@ -1,0 +1,66 @@
+Console.WriteLine("Generating invoices for customer \"ABC Corp\" ...\n");
+Console.WriteLine("Invoice: 1021\t\tComplete!");
+Console.WriteLine("Invoice: 1022\t\tComplete!");
+Console.WriteLine("\nOutput Directory:\t");
+Console.Write(@"c:\invoices");
+
+// To generate Japanese invoices:
+// Nihon no seikyū-sho o seisei suru ni wa:
+Console.Write("\n\n\u65e5\u672c\u306e\u8acb\u6c42\u66f8\u3092\u751f\u6210\u3059\u308b\u306b\u306f\uff1a\n\t");
+Console.WriteLine(@"c:\invoices\app.exe -j");
+
+@ = double quations will not cause an error if at is used 
+
+
+
+string firstName = "Bob";
+string message = "Hello " + firstName;
+Console.WriteLine(message);
+
+(the string firstname was embeded into the message string)
+
+
+string firstName = "Bob";
+string greeting = "Hello";
+string message = greeting + " " + firstName + "!";
+Console.WriteLine(message);
+
+(the quations after greeting adds spaceing between hello and bob)
+
+(the code below is a simplefied verzion of the previous code)             
+             string firstName = "Bob";
+             string greeting = "Hello";
+             Console.WriteLine(greeting + " " + firstName + "!");
+
+
+
+string firstName = "Bob";
+string greeting = "Hello";
+string message = $"{greeting} {firstName}!";
+Console.WriteLine(message);
+
+(the curly brackets makes it so you can combine code and write less )
+(more examples off this below)
+string firstName = "Bob";
+string greeting = "Hello";
+Console.WriteLine($"{greeting} {firstName}!");
+
+string projectName = "First-Project";
+Console.WriteLine($@"C:\Output\{projectName}+Data");
+
+
+
+("this code i made myselt whitout looking (:"  );
+string projectName = "ACME";
+string messagetwo = "\u0056\u0069\u0065\u0077\u0020\u0045\u006e\u0067\u006c\u0069\u0073\u0068\u0020\u006f\u0075\u0074\u0070\u0075\u0074";
+string russianMessage = "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0432\u044b\u0432\u043e\u0434";
+
+Console.WriteLine($@"{messagetwo}:
+        c:\Exercise\{projectName}\data.txt");
+
+Console.WriteLine($@"{russianMessage}:
+        c:\Exercise\{projectName}\data.txt");
+
+
+
+

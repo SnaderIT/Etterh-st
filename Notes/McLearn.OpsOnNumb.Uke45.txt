@@ -1,0 +1,26 @@
+string firstName = "Bob";
+int widgetsSold = 7;
+Console.WriteLine(firstName + " sold " + (widgetsSold + 7) + " widgets.");
+
+//de parangtesene inni writeline medgjør at de blir lagt sammen//
+
+
+int value1 = 3 + 4 * 5;
+int value2 = (3 + 4) * 5;
+Console.WriteLine(value1);
+Console.WriteLine(value2);
+//Console.WriteLine("Modulus of 200 / 5 : " + (200 % 5));
+//Console.WriteLine("Modulus of 7 / 5 : " + (7 % 5));
+
+int first = 7;
+int second = 5;
+//decimal// quotient = (decimal)first / (decimal)second;
+Console.WriteLine(quotient);
+
+// viss man skal gjøre kalkulationer på c# og man bruker decimaler så må man bruke decimal decelatrion(det er den jeg har merkert med backslash)
+
+int fahrenheit = 94;
+decimal celsius = (fahrenheit - 32m) * (5m / 9m);
+Console.WriteLine("The temperature is " + celsius + " Celsius.");
+
+// the structure of dregee converter //

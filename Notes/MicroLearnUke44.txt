@@ -1,0 +1,28 @@
+//Console.WriteLine("Hello, Bob! You have 3 Messages i your inbox. The Temp is 34.4 celsius.");
+
+//string firstName;
+//firstName = "Bob";
+//Console.WriteLine(firstName);
+//firstName = "3";
+//Console.WriteLine(firstName);
+//firstName = "34.4";
+//Console.Write(firstName);
+
+
+//easy and strait forward way to store and output values 
+
+//string name = "Bob";
+//int messages = 3;
+//decimal temperature = 34.4m;
+
+//Console.Write("Hello, ");
+//Console.Write(name);
+//Console.Write("! You have ");
+//Console.Write(messages);
+//Console.Write(" messages in your inbox. The temperature is ");
+//Console.Write(temperature);
+//Console.Write(" celsius.");
+
+Console.WriteLine("Hello\nWorld!"); //this line is an example how escape chars work (\n makes a new line for the text aftyer it )
+
+:

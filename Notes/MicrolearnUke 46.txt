@@ -1,0 +1,3 @@
+Random dice = new Random(); 
+
+ //denne coden lager en ny random variabel som heter dice, den declarer det med si new random//
