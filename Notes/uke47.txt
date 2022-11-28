@@ -1,0 +1,58 @@
+Kodeklubben  
+– alle oppgaver er Console app 
+
+Kall metodene Oppgave1, Oppgave2 etc. 
+
+Lag en kommentar // over metoden som beskriver hva den gjør.  
+
+Lag kode som skriver ut Hello World 
+
+lag en metode som skriver ut Hello World 
+
+Lag en metode som tar imot et parameter, string, og skriver dette ut 
+
+Lag en metode som tar imot 2 inter. I metoden legger du disse sammen, og skriver ut sum 
+
+Som oppgave 4, men her skal summer returneres. Nå blir ikke metoden en void. Kall på metoden i main, og skriv ut svaret. 
+
+Lag en metode hvor du oppretter en array med strings. Legg til 5 strings. Skriv alle ved hjelp av en for, foreach og en while. 
+
+Som oppgaven over, men skriv kun ut stringene med lengde under 4. 
+
+Som oppgave 6 og 7. Men her skal det være et parameter. En int. Dette tallet skal bestemme hvilken lengde order må være under for å blir skrevet ut. 
+
+Lag en metode hvor du oppretter en array med noen tall. Deretter skriver det hele ut. Så skal du sortere arrayen, skriv ut på nytt. Deretter skrive ut arrayen baklengs, ved hjelp av en for-loop. 
+
+Lag en metode som skriver ut følgende: () ved å bruke en loop 
+* 
+** 
+*** 
+**** 
+
+Nesten som oppgaven over. Men her skal du lage «bølger». På dette viset: (denne skal gå 100 ganger). Går det for fort? Google c# Thread.Sleep 
+* 
+** 
+*** 
+**** 
+*** 
+** 
+* 
+** 
+*** 
+**** 
+*** 
+** 
+* 
+
+Lag en metode der du oppretter en array med 4 ints. For eksempel noe som ser slik ut [1,9,33,44]. Tallet 1 ligger på den første plassen, altså index 0. Tallet 9 ligger på index 1, osv. 
+Bytt plass på disse to første tallene. Ikke lag en ny array. Det skal kun brukes variabler for å få til dette. 
+
+Finn koden for BubbleSort på nett. Lag en metode av denne. Opprett en array med ints. Sorter denne og skriv ut. 
+
+Lag en sorteringsmetode som tar imot en array, samt et annet parameter som bestemmer hvilken retning det skal sorteres. Stigende eller synkende. 
+
+Lag en metode der som tar imot en int array og en int. Det siste parameteret er hva det letes etter i denne arrayen. Søk igjennom arrayen ved å bruke en for, og når/hvis verdien blir funnet, skal indexen der den lå skrives ut. 
+
+ 
+
+  

@@ -17,7 +17,7 @@ namespace fuckdwennis
 
         static void Main(string[] args)
         {
-            opgv10();
+            opgv11();
             Console.ReadLine();
         }
 
@@ -82,10 +82,10 @@ namespace fuckdwennis
         static void opgv11()
         {
             int[] tall = { 12, 42, 3, 23 };
-            int tall1 = tall[0];
-            tall[1] = 2;
+            tall[1] = 0;
+            tall[0] = 1;
         }
     }
 }
-
+  
 
