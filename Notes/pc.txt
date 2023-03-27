@@ -1,0 +1,25 @@
+MSI Z390-A PRO (MS-7B98)	                        kr 1,999
+
+CPU	Intel Core i5-9600K	                        kr 2,562
+
+CPU Cooler	Deepcool GAMMAXX 400	                kr 256
+
+GPU	Nvidia RTX 2060S (Super)	                kr 4,397
+
+SSD	Adata XPG SX8200 Pro NVMe PCIe M.2 256GB	kr 737
+
+RAM	Corsair Vengeance LPX DDR4 3200 C16 2x8GB	kr 472
+
+Power Supply	Corsair CX650M	                        kr 922
+Case	Cooler Master MasterBox Q500L
+
+
+
+
+intel Core i5-9600KF 	                        kr 1,845				
+Nvidia RTX 3060-Ti	                        kr 4,612			
+WD Black SN850X NVMe PCIe M.2 1TB	        kr 1,025				
+Corsair Vengeance LPX DDR4 3200 C16 2x8G	kr 472						
+MSI Z390-A PRO (MS-7B98)	                kr 1,999
+				
+                                                kr 9,952	

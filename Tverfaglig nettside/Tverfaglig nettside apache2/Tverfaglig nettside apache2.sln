@@ -1,0 +1,25 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32825.248
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tverfaglig nettside apache2", "Tverfaglig nettside apache2\Tverfaglig nettside apache2.csproj", "{F8175E53-9951-4330-BED7-114ABBC8A559}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{F8175E53-9951-4330-BED7-114ABBC8A559}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F8175E53-9951-4330-BED7-114ABBC8A559}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F8175E53-9951-4330-BED7-114ABBC8A559}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F8175E53-9951-4330-BED7-114ABBC8A559}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D5ECB521-6A4F-4BBC-8426-7EE7ED1E7654}
+	EndGlobalSection
+EndGlobal

@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.Diagnostics.CodeAnalysis;
 using System.Linq;
+using System.Net;
 using System.Text;
 using System.Threading.Tasks;
 
@@ -17,8 +18,9 @@ namespace fuckdwennis
 
         static void Main(string[] args)
         {
-            opgv11();
+            opgv14();
             Console.ReadLine();
+            
         }
 
         static void opgv8(int tallå)
@@ -79,12 +81,52 @@ namespace fuckdwennis
 
 
         }
-        static void opgv11()
+        static void opgv12()
         {
-            int[] tall = { 12, 42, 3, 23 };
-            tall[1] = 0;
-            tall[0] = 1;
+            int[] tall = { 1, 9, 33, 44 };
+
+            int tempoen = tall[0];
+
+            int tempotwo = tall[1];
+
+            tall[1] = tempoen;
+
+            tall[0] = tempotwo;
+
+            foreach(int i in tall)
+                Console.WriteLine(i);   
         }
+
+
+
+
+        static void opgv13()
+        {
+
+
+            int[] arr = { 23, 55, 34, 53, 78 };
+        }
+
+        static void opgv14()
+        {
+
+
+
+
+
+
+        }
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
+    
     }
 }
   
